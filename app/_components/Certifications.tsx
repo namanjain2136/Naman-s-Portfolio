@@ -116,7 +116,7 @@ const Certifications = () => {
                     )}
 
                     <div className="flex flex-col max-md:gap-10">
-                        {MY_CERTIFICATIONS.map((item, index) => (
+                        {MY_CERTIFICATIONS.map((item) => (
                             <a
                                 href={item.thumbnail}
                                 target="_blank"
