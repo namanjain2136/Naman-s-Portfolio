@@ -45,9 +45,9 @@ export const MY_STACK = {
     { name: 'Vercel', icon: '/logo/vercel-circle.svg' },
   ],
   'AI-Assisted Development': [
-    { name: 'GitHub Copilot', icon: '/logo/github-copilot.svg' },
+    { name: 'GitHub Copilot', icon: '/logo/githubcopilot.svg' },
     { name: 'Cursor AI', icon: '/logo/cursor.svg' },
-    { name: 'ChatGPT', icon: '/logo/chatgpt.svg' },
+    { name: 'ChatGPT', icon: '/logo/openai.svg' },
 ]
 
 };
