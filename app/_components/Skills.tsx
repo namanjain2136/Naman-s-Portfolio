@@ -56,14 +56,15 @@ const Skills = () => {
             const tl = gsap.timeline({
                 scrollTrigger: {
                     trigger: containerRef.current,
-                    start: 'bottom 50%',
-                    end: 'bottom 10%',
+                    start: 'top bottom',
+                    end: 'top 80%',
+                    toggleActions: 'restart none none reverse',
                     scrub: 1,
                 },
             });
 
-            tl.to(containerRef.current, {
-                y: -150,
+            tl.from(containerRef.current, {
+                y: 150,
                 opacity: 0,
             });
         },

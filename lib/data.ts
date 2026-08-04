@@ -17,29 +17,39 @@ export const SOCIAL_LINKS = [
 ];
 
 export const MY_STACK = {
-    'Programming Languages': [
-        { name: 'Python', icon: '/logo/python.svg' },
-        { name: 'Java', icon: '/logo/java.svg' },
-        { name: 'C/C++', icon: '/logo/cpp.svg' },
-        { name: 'JavaScript', icon: '/logo/javascript.svg' },
-        { name: 'SQL', icon: '/logo/sql.svg' },
-        { name: 'NoSQL', icon: '/logo/nosql.svg' },
-    ],
-    'Frameworks & Technologies': [
-        { name: 'React', icon: '/logo/react.svg' },
-        { name: 'Next.js', icon: '/logo/nextjs.svg' },
-        { name: 'Tailwind CSS', icon: '/logo/tailwindcss.svg' },
-        { name: 'AWS', icon: '/logo/aws.svg' },
-        { name: 'Spring Boot', icon: '/logo/springboot.svg' },
-        { name: 'Vercel', icon: '/logo/vercel-circle.svg' },
-        { name: 'GitHub', icon: '/logo/github-circle.svg' },
-        
-    ],
-    Tools: [
-        { name: 'VS Code', icon: '/logo/vscode.svg' },
-        { name: 'Office 365', icon: '/logo/office365.svg' },
-        { name: 'Canva', icon: '/logo/canva.svg' },
-    ],
+  'Programming Languages': [
+    { name: 'Java', icon: '/logo/java.svg' },
+    { name: 'Python', icon: '/logo/python.svg' },
+    { name: 'JavaScript', icon: '/logo/javascript.svg' },
+    { name: 'C/C++', icon: '/logo/cpp.svg' },
+  ],
+
+  'Frameworks & Libraries': [
+    { name: 'React', icon: '/logo/react.svg' },
+    { name: 'Next.js', icon: '/logo/nextjs.svg' },
+    { name: 'Tailwind CSS', icon: '/logo/tailwindcss.svg' },
+    { name: 'Spring Boot', icon: '/logo/springboot.svg' },
+  ],
+
+  'Databases': [
+    { name: 'MySQL', icon: '/logo/mysql.svg' },
+    { name: 'PostgreSQL', icon: '/logo/postgresql.svg' },
+    { name: 'MongoDB', icon: '/logo/mongodb.svg' },
+    { name: 'Redis', icon: '/logo/redis.svg' },
+  ],
+
+  'Cloud & Tools': [
+    { name: 'AWS', icon: '/logo/aws.svg' },
+    { name: 'GitHub', icon: '/logo/github-circle.svg' },
+    { name: 'VS Code', icon: '/logo/vscode.svg' },
+    { name: 'Vercel', icon: '/logo/vercel-circle.svg' },
+  ],
+  'AI-Assisted Development': [
+    { name: 'GitHub Copilot', icon: '/logo/github-copilot.svg' },
+    { name: 'Cursor AI', icon: '/logo/cursor.svg' },
+    { name: 'ChatGPT', icon: '/logo/chatgpt.svg' },
+]
+
 };
 
 export const PROJECTS: IProject[] = [

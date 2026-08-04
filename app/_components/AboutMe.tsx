@@ -13,39 +13,17 @@ const AboutMe = () => {
         () => {
             const tl = gsap.timeline({
                 scrollTrigger: {
-                    id: 'about-me-in',
                     trigger: container.current,
-                    start: 'top 70%',
-                    end: 'bottom bottom',
-                    scrub: 0.5,
+                    start: 'top bottom',
+                    end: 'top 80%',
+                    toggleActions: 'restart none none reverse',
+                    scrub: 1,
                 },
             });
 
-            tl.from('.slide-up-and-fade', {
+            tl.from(container.current, {
                 y: 150,
                 opacity: 0,
-                stagger: 0.05,
-            });
-        },
-        { scope: container },
-    );
-
-    useGSAP(
-        () => {
-            const tl = gsap.timeline({
-                scrollTrigger: {
-                    id: 'about-me-out',
-                    trigger: container.current,
-                    start: 'bottom 50%',
-                    end: 'bottom 10%',
-                    scrub: 0.5,
-                },
-            });
-
-            tl.to('.slide-up-and-fade', {
-                y: -150,
-                opacity: 0,
-                stagger: 0.02,
             });
         },
         { scope: container },
@@ -55,7 +33,7 @@ const AboutMe = () => {
         <section className="pb-section" id="about-me">
             <div className="container" ref={container}>
                 <h2 className="text-4xl md:text-6xl font-thin mb-20 slide-up-and-fade">
-                    A dedicated technologist with enthusiasm in developing
+                    A dedicated learner with enthusiasm in developing
                     projects across various domains and a drive for
                     problem-solving. Passionate about learning and excited to contribute to
                     innovative projects that make a difference.
@@ -87,6 +65,10 @@ const AboutMe = () => {
                                 management, with a strong focus on building
                                 creative, high-impact solutions in evolving
                                 environments.
+
+                            </p>
+                            <p className="mt-3 slide-up-and-fade">
+                                Experienced using GitHub Copilot, ChatGPT, and modern AI-powered workflows to accelerate full-stack development, debugging, documentation, and rapid prototyping.
                             </p>
                         </div>
                     </div>
