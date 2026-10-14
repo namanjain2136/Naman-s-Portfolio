@@ -1,5 +1,13 @@
 import { IProject } from '@/types';
 
+export interface IExperience {
+    title: string;
+    company: string;
+    duration: string;
+    description: string;
+    thumbnail?: string;
+}
+
 export const GENERAL_INFO = {
     email: 'namanjain2136@gmail.com',
     fullName: 'NAMAN JAIN',
@@ -143,14 +151,14 @@ export const MY_EDUCATION = [
     },
 ];
 
-export const MY_EXPERIENCE = [
+export const MY_EXPERIENCE: IExperience[] = [
     {
         title: 'Software/IT Intern',
         company: 'BAI × The Meera',
         duration: '2026',
         description:
             'Developed a hospitality platform using Next.js and Tailwind CSS with a strong focus on responsive design, user experience, and modern web development practices.',
-        
+        thumbnail: '/experience/BAI-Meera%20.jpeg',
     },
     {
         title: 'Java Developer Intern',
@@ -158,7 +166,7 @@ export const MY_EXPERIENCE = [
         duration: '2025',
         description:
             'Built a quiz management system using Java Spring Boot, HTML/CSS, and SQL, including notes and feedback modules to support a complete user workflow.',
-        
+        thumbnail: '/experience/Navodita.jpg',
     },
     {
         title: 'Vice-Chairperson',
@@ -166,7 +174,7 @@ export const MY_EXPERIENCE = [
         duration: '2025-2026',
         description:
             'Led a 120+ member technical community by organizing workshops and events on Android Development, UI/UX, and Web Development while fostering collaboration and growth.',
-        
+        thumbnail: '/experience/SWC%20Android%20Club.jpeg',
     },
 ];
 
