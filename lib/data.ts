@@ -28,18 +28,15 @@ export const MY_STACK = {
     { name: 'React', icon: '/logo/react.svg' },
     { name: 'Next.js', icon: '/logo/nextjs.svg' },
     { name: 'Tailwind CSS', icon: '/logo/tailwindcss.svg' },
-    { name: 'Spring Boot', icon: '/logo/springboot.svg' },
   ],
 
   'Databases': [
     { name: 'MySQL', icon: '/logo/mysql.svg' },
-    { name: 'PostgreSQL', icon: '/logo/postgresql.svg' },
     { name: 'MongoDB', icon: '/logo/mongodb.svg' },
     { name: 'Redis', icon: '/logo/redis.svg' },
   ],
 
   'Cloud & Tools': [
-    { name: 'AWS', icon: '/logo/aws.svg' },
     { name: 'GitHub', icon: '/logo/github-circle.svg' },
     { name: 'VS Code', icon: '/logo/vscode.svg' },
     { name: 'Vercel', icon: '/logo/vercel-circle.svg' },
@@ -47,7 +44,7 @@ export const MY_STACK = {
   'AI-Assisted Development': [
     { name: 'GitHub Copilot', icon: '/logo/githubcopilot.svg' },
     { name: 'Cursor AI', icon: '/logo/cursor.svg' },
-    { name: 'ChatGPT', icon: '/logo/openai.svg' },
+    { name: 'Antigravity', icon: '/logo/antigravity.svg' },
 ]
 
 };
@@ -63,19 +60,34 @@ export const PROJECTS: IProject[] = [
         thumbnail: '/projects/thumbnail/doctornow.png',
     },
     {
-        title: 'DeepGuard',
-        slug: 'deepguard',
-        sourceCode: 'https://github.com/namanjain2136/DeepGuard',
+        title: 'Adaptense',
+        slug: 'adaptense',
+        sourceCode: 'https://github.com/namanjain2136/adaptense',
         description:
-            'DeepGuard is a full-stack AI platform for real-time deepfake detection on audio and image inputs. It delivers fast inference through a clean React interface backed by FastAPI services. The platform includes confidence-based predictions, health checks, model validation, secure file handling, and calibration controls for dependable results.',
+            'Context-aware gesture interaction framework for virtual learning using computer vision. Designed a Unity-based learning environment integrating MediaPipe hand tracking to recognize gestures and adapt interactions using contextual signals such as gesture confidence, failed attempts, task stage and user interaction history.',
         techStack: [
-            'React',
-            'FastAPI',
-            'PyTorch',
+            'Unity',
+            'MediaPipe',
+            'Computer Vision',
+            'C#',
             'Python',
-            'REST API',
         ],
-        thumbnail: '/projects/thumbnail/deepguard.png',
+        thumbnail: '/projects/thumbnail/adaptense.jpeg',
+    },
+    {
+        title: 'AutoMetrics',
+        slug: 'autometrics',
+        sourceCode: 'https://github.com/namanjain2136/autometrics',
+        description:
+            'Automotive Sales Analytics Platform: Developed a data analytics project for analyzing automotive sales, customer, vehicle and dealership data to identify sales trends, product performance and business patterns. Structured data processing and analysis workflows to generate meaningful KPIs and interactive visualizations for business oriented decision making.',
+        techStack: [
+            'Python',
+            'Pandas',
+            'SQL',
+            'Data Analytics',
+            'Power BI',
+        ],
+        thumbnail: '/projects/thumbnail/autometrics.png',
     },
     {
         title: 'Quizeria',
@@ -138,6 +150,7 @@ export const MY_EXPERIENCE = [
         duration: '2026',
         description:
             'Developed a hospitality platform using Next.js and Tailwind CSS with a strong focus on responsive design, user experience, and modern web development practices.',
+        
     },
     {
         title: 'Java Developer Intern',
@@ -145,6 +158,7 @@ export const MY_EXPERIENCE = [
         duration: '2025',
         description:
             'Built a quiz management system using Java Spring Boot, HTML/CSS, and SQL, including notes and feedback modules to support a complete user workflow.',
+        
     },
     {
         title: 'Vice-Chairperson',
@@ -152,13 +166,7 @@ export const MY_EXPERIENCE = [
         duration: '2025-2026',
         description:
             'Led a 120+ member technical community by organizing workshops and events on Android Development, UI/UX, and Web Development while fostering collaboration and growth.',
-    },
-    {
-        title: 'Hackathons',
-        company: 'Organizer & Volunteer',
-        duration: '2024-2026',
-        description:
-            'Organized Hack-N-Droid for 500+ participants, led promotions for Pitchathon with 350+ registrations, and supported registrations for CodeVolt with 400+ participants across multiple hackathons.',
+        
     },
 ];
 
